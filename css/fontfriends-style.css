@@ -1,24 +1,155 @@
-body { margin: 0; padding: 0; zoom: 0; font-size: 1em; // 12px}
-h1, h2, p { margin: 0; padding: 0; }
+body { 
+	margin: 0; 
+	padding: 0; 
+	zoom: 0; 
+	font-size: 1em; // 12px}
+
+h1, h2, p { 
+	margin: 0; 
+	padding: 0; }
 
 .container { width: 100% margin: 0 auto; }
 
-.section-intro h1 {font-size: 6.6em; font-family: 'Unica One', cursive; color: #F29991; margin: 8% 0 4% 0; text-align: center; }
-.section-intro .lighter {font-size: inherit; color: #F2D0C4; font-family: 'Unica One', cursive; margin: inherit; text-align: center; }
-.section-intro .wrapper { width: 100%; text-align: center; margin: 0 auto 10% auto; }
-.section-intro .dual { width: 230px; display: inline-block; vertical-align: top; text-align: left; margin: 0 20px 30px 10px; }
-.section-intro p { color: #9A9396; font-size: .9em; font-family: 'Cantarell', Arial, sans-serif; margin: 0 auto 10px auto; max-width: 460px; }
-.section-intro a { color: #F2D0C4; text-decoration: none; }
-.section-intro a:hover { color:#DCD3D1; text-decoration:none;}
 
-.section-shadow-of-the-wind { background: url(../images/foggy-read.jpg) no-repeat; background-size: cover; padding: 6.5% 0 4%;}
-.section-shadow-of-the-wind h1 {font-size: 2em; font-family: 'Bitter', Times, serif; letter-spacing: 0.2em; color: #ffffff; margin: 10% 5% 5% 5%;}
-.section-shadow-of-the-wind p {font-size: .9em; font-family: 'Merriweather', Times, serif; line-height: 1.8em; color: #ffffff; margin: 1% 4% 1% 2%;}
-.section-shadow-of-the-wind .blockquote {text-indent: 3%;}
-.section-shadow-of-the-wind .wrapper { width: 45%; text-align: left; margin: 0 auto 10% auto; }
+/*-- introduction to page --*/
+
+.section-intro h1 {
+	font-size: 6.6em; 
+	font-family: 'Unica One', cursive; 
+	color: #F29991; 
+	margin: 8% 0 4% 0; 
+	text-align: center; }
+
+.section-intro .lighter {
+	font-size: inherit; 
+	color: #F2D0C4; 
+	font-family: 'Unica One', cursive; 
+	margin: inherit; 
+	text-align: center; }
+
+.section-intro .wrapper { 
+	width: 100%; 
+	text-align: center; 
+	margin: 0 auto 10% auto; }
+
+.section-intro .dual { 
+	width: 230px; 
+	display: inline-block; 
+	vertical-align: top; 
+	text-align: left; 
+	margin: 0 20px 30px 10px; }
+
+.section-intro p { 
+	color: #9A9396; 
+	font-size: .9em; 
+	font-family: 'Cantarell', Arial, sans-serif; 
+	margin: 0 auto 10px auto; 
+	max-width: 460px; }
+
+.section-intro a { 
+	color: #F2D0C4; 
+	text-decoration: none; }
+
+.section-intro a:hover { 
+	color:#DCD3D1; 
+	text-decoration:none;}
+
+
+/*-- shadow of the wind --*/
+
+.section-shadow-of-the-wind { 
+	background:
+	/* top, transparent greyish, faked with gradient */ 
+    linear-gradient(
+      rgba(127, 114, 106, 0.45), 
+      rgba(127, 114, 106, 0.45)
+    ),
+    /* bottom, image */
+    url(../images/wood-texture.jpg);
+	background-size: cover; 
+	padding: 3% 0 .2%;}
+
+.section-shadow-of-the-wind h1 {
+	text-align: center;
+	font-size: 2.7em; 
+	font-family: 'Bitter', Times, serif; 
+	letter-spacing: 0.2em; 
+	color: #ffffff; 
+	margin: 10% 0% 8% 0%;}
+
+.section-shadow-of-the-wind p {
+	width: 80%;
+	font-size: .9em; 
+	font-family: 'Merriweather', Times, serif; 
+	line-height: 1.8em; 
+	color: #ffffff; 
+	margin: 1% 4% 1% 8%;}
+
+.section-shadow-of-the-wind .divider { 
+	width: 20%; 
+	padding: 1% 0 0 0; 
+	border-top: 1.5px solid #fff; 
+	margin: 2% auto 0 auto; }
+
+.dropcap{
+  float       : left;
+  font-family: 'Bitter', Times, serif;
+  font-size   : 4.5em;
+  line-height : 0.5;
+  margin      : 3% 4% 2% 2%;
+}
+
+.dropcap + span{
+  margin-left : -0.5em;
+}
+
+.section-shadow-of-the-wind .blockquote {
+	text-indent: 3%; 
+	display: inline-block; 
+	margin-bottom: 1%; 
+	margin-top: 1%;}
+
+.section-shadow-of-the-wind .wrapper { 
+	width: 44%; 
+	text-align: left; 
+	margin: 0 auto 8% auto; }
+
+
+@media only screen and (max-width: 480px) {
+
+	.section-shadow-of-the-wind h1 {
+	text-align: center;
+	font-size: 2em; 
+	font-family: 'Bitter', Times, serif; 
+	letter-spacing: 0.2em; 
+	color: #ffffff; 
+	margin: 10% 0% 8% 0%;}
+
+	.section-shadow-of-the-wind p {
+	font-size: .8em; 
+	font-family: 'Merriweather', Times, serif; 
+	line-height: 1.8em; 
+	color: #ffffff; 
+	margin: 3% 4% 1% 2%;}
+
+	.dropcap{
+  float       : left;
+  font-family: 'Bitter', Times, serif;
+  font-size   : 4em;
+  line-height : 0.5;
+  margin      : 3% 4% 3% 2%;
+}
+
+.dropcap + span{
+  margin-left : -0.5em;
+}
+
+	.section-shadow-of-the-wind .wrapper { 
+	width: 80%; 
+	text-align: left; 
+	margin: 0 auto 10% auto; }
+}
 
 
 
-
-/*-- styles for mobile devices --*/
 
