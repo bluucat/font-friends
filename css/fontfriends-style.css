@@ -1,20 +1,21 @@
-body { margin: 0; padding: 0; zoom: 0; }
+body { margin: 0; padding: 0; zoom: 0; font-size: 1em; // 12px}
 h1, h2, p { margin: 0; padding: 0; }
 
 .container { width: 100% margin: 0 auto; }
 
-.section-intro h1 {font-size: 105px; font-family: 'Unica One', cursive; color: #F29991; margin: 120px 0 40px 0; text-align: center; }
-.section-intro .lighter {font-size: 105px; color: #F2D0C4; font-family: 'Unica One', cursive; margin: 0px 0 50px 0; text-align: center; }
-.section-intro .divider { width: 30px; padding: 30px 0 0 0; border-top: 1px solid #999; margin: 30px auto 0 auto; }
-.section-intro .wrapper { width: 100%; text-align: center; margin: 0 auto 80px auto; }
+.section-intro h1 {font-size: 6.6em; font-family: 'Unica One', cursive; color: #F29991; margin: 8% 0 4% 0; text-align: center; }
+.section-intro .lighter {font-size: inherit; color: #F2D0C4; font-family: 'Unica One', cursive; margin: inherit; text-align: center; }
+.section-intro .wrapper { width: 100%; text-align: center; margin: 0 auto 10% auto; }
 .section-intro .dual { width: 230px; display: inline-block; vertical-align: top; text-align: left; margin: 0 20px 30px 10px; }
-.section-intro p { color: #9A9396; font: 14px/20px 'Cantarell', Arial, sans-serif; margin: 0 auto 10px auto; max-width: 460px; }
+.section-intro p { color: #9A9396; font-size: .9em; font-family: 'Cantarell', Arial, sans-serif; margin: 0 auto 10px auto; max-width: 460px; }
 .section-intro a { color: #F2D0C4; text-decoration: none; }
 .section-intro a:hover { color:#DCD3D1; text-decoration:none;}
 
-.section-shadow-of-the-wind { background: url(../images/foggy-read.jpg) no-repeat; background-size: cover; padding: 90px 0 90px;}
-.section-shadow-of-the-wind h1 {font-size: 40px; font-family: 'Bitter', serif; letter-spacing: 0.2em; color: #ffffff; margin: 120px 40px 40px 40px;}
-.section-shadow-of-the-wind p {font-size: 14px; font-family: 'Merriweather', serif; line-height: 2em; color: #ffffff; margin: 30px 40px 40px 40px;}
+.section-shadow-of-the-wind { background: url(../images/foggy-read.jpg) no-repeat; background-size: cover; padding: 6.5% 0 4%;}
+.section-shadow-of-the-wind h1 {font-size: 2em; font-family: 'Bitter', Times, serif; letter-spacing: 0.2em; color: #ffffff; margin: 10% 5% 5% 5%;}
+.section-shadow-of-the-wind p {font-size: .9em; font-family: 'Merriweather', Times, serif; line-height: 1.8em; color: #ffffff; margin: 1% 4% 1% 2%;}
+.section-shadow-of-the-wind .blockquote {text-indent: 3%;}
+.section-shadow-of-the-wind .wrapper { width: 45%; text-align: left; margin: 0 auto 10% auto; }
 
 
 
