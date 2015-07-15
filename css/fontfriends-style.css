@@ -19,9 +19,14 @@ h1, h2, p {
 	font-size: 7.2em; 
 	font-family: 'Unica One', cursive; 
 	color: #F29991; 
+<<<<<<< HEAD
+	margin: 8% 2% 4% 0; 
+	text-align: center; }
+=======
 	margin: 10% 0% 2% 0; 
 	text-align: center;
 	max-width: 100%; }
+>>>>>>> master
 
 .section-intro .lighter {
 	font-size: inherit; 
